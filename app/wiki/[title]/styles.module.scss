@@ -1,0 +1,51 @@
+.container {
+  position: relative;
+  max-width: 60%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  .rename {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    opacity: 0.5;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+
+  .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin-top: 15px;
+    max-width: 200px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
